@@ -33,7 +33,8 @@ function Logs({ log: { logs, loading }, getLogs }) {
 }
 
 Logs.propTypes = {
-    log: PropTypes.object.isRequired
+    log: PropTypes.object.isRequired,
+    getLogs: PropTypes.func.isRequired
 }
 
 // map what I want from initialState on logReducer
